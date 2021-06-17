@@ -1,0 +1,38 @@
+.title-and-modal {
+  width: 100%;
+  border-top: 2px solid rgba(100, 100, 100, 0.2);
+}
+
+.single-card {
+  cursor: pointer;
+  box-shadow: 3px 3px #ccc;
+}
+
+.card {
+  width: 100%;
+}
+.edit-btn {
+  svg {
+    visibility: hidden;
+    height: 18px;
+    width: auto;
+    position: absolute;
+    right: 7px;
+    top: 10px;
+  }
+
+  &:hover svg {
+    visibility: visible;
+  }
+}
+
+.ow {
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  hyphens: auto;
+  cursor: pointer;
+  padding-bottom: 0.001em;
+  margin: 0.3em;
+}
